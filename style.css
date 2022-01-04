@@ -5,18 +5,31 @@ h1{
     font-size: 48px;
 }
 .spancolor{
-    color: #3cb6ee;
+    color: #007ec7;
 }
 section{
     display: flex;
 }
 .half-width{
     width: 50%;
-    padding: 3%;
+    padding: 4%;
 }
 .half-width img{
     width: 100%;
 }
+.link-button{
+    text-decoration: none;
+    background-color: #3cb6ee;
+    padding: 13px;
+    font-weight: bold;
+    border-radius: 6px;
+    background-image: linear-gradient(#3cb6ee,#007ec7);
+    color: white;
+}
+.link-button:hover{
+    color: black;
+}
+
 
 
 /* .parasize{
