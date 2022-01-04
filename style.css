@@ -68,8 +68,16 @@ hr{
     margin-top: 0;
 }
 .experience .half-width:first-child{
-    border-left: 10px solid #ffaa2a;
+    border-image: linear-gradient(orange,#ffdc17);
+    border-left: 10px solid;
+    border-image-slice:1;
+
 }
 .experience .half-width:last-child{
-    border-left: 10px solid #007ec7;
+    border-image: linear-gradient(#0084f0,#3cb6ee);
+    border-left: 10px solid;
+    border-image-slice:1;
+}
+footer p{
+    text-align: center;
 }
