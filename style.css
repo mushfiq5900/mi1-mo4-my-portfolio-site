@@ -7,11 +7,24 @@ h1{
 .spancolor{
     color: #3cb6ee;
 }
-.parasize{
+section{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+    padding: 3%;
+}
+.half-width img{
+    width: 100%;
+}
+
+
+/* .parasize{
     width: 700px;
     text-align: justify;
 }
 button{
     width: 150px;
     height: 50px;
-}
+} */
+
