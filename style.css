@@ -14,7 +14,7 @@ hr{
 .spancolor{
     color: #007ec7;
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 30px;
 }
@@ -48,13 +48,28 @@ section{
     background-position: right;
 }
 
-
-/* .parasize{
-    width: 700px;
-    text-align: justify;
+.experience .exptitle{
+    padding-left: 5%;
+    margin-bottom: 0;
 }
-button{
-    width: 150px;
-    height: 50px;
-} */
+.experience{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position:left;
+}
 
+.experience .half-width{
+   margin: 5%;
+   box-shadow: 10px 10px  10px 8px #dddd;
+   padding: 3%;
+}
+
+.experience .half-width h1{
+    margin-top: 0;
+}
+.experience .half-width:first-child{
+    border-left: 10px solid #ffaa2a;
+}
+.experience .half-width:last-child{
+    border-left: 10px solid #007ec7;
+}
